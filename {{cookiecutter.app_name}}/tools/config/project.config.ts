@@ -1,6 +1,6 @@
 import {join} from 'path';
-import {AppConfig} from './{{cookiecutter.app_name}}.config';
-import {InjectableDependency} from './{{cookiecutter.app_name}}.config.interfaces';
+import {AppConfig} from './{{cookiecutter.project_name}}.config';
+import {InjectableDependency} from './{{cookiecutter.project_name}}.config.interfaces';
 
 export class ProjectConfig extends AppConfig {
   PROJECT_TASKS_DIR = join(process.cwd(), this.TOOLS_DIR, 'tasks', 'project');

@@ -10,7 +10,7 @@ if (!TASK) {
 }
 
 console.log('**********************');
-console.log('* {{cookiecutter.app_name}} tools ');
+console.log('* {{cookiecutter.project_name}} tools ');
 console.log('* debugging task:', TASK);
 console.log('**********************');
 
