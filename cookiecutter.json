@@ -1,0 +1,11 @@
+{
+  "full_name": "Your Name",
+  "email": "you@example.com",
+  "github_username": "username",
+  "repo_name": "{{cookiecutter.repo_name}}",
+  "project_name": "Angular 2 Seed",
+  "project_short_description": "Modular seed project for Angular 2 apps with TypeScript.",
+  "release_date": "2016-04-15",
+  "year": "2016",
+  "version": "0.1.0",
+}
