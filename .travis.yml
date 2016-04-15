@@ -1,17 +1,24 @@
-language: node_js
-node_js:
-  - "5.5"
-  - "4.2"
+language: python
+
 python:
-  - "2.7"
+  - 2.7
+
+env:
+  - TRAVIS_NODE_VERSION="4"
+
 before_script:
   - npm install -g npm
   - npm install -g gulp
+
 install:
+  - rm -rf ~/.nvm && git clone https://github.com/creationix/nvm.git ~/.nvm && (cd ~/.nvm && git checkout `git describe --abbrev=0 --tags`) && source ~/.nvm/nvm.sh && nvm install $TRAVIS_NODE_VERSION
+  - npm install
   - pip install cookiecutter
   - cookiecutter . --no-input
   - cd angular2-seed
   - npm install
+
 script:
   - npm test
+
 sudo: false
