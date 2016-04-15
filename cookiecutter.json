@@ -1,10 +1,8 @@
 {
-  "full_name": "Your Name",
-  "email": "you@example.com",
-  "github_username": "username",
   "project_name": "angular2-seed",
-  "project_short_description": "Modular seed project for Angular 2 apps with TypeScript.",
-  "release_date": "2016-04-15",
-  "year": "2016",
-  "version": "0.1.0",
+  "description": "Modular seed project for Angular 2 apps with TypeScript.",
+  "your_name": "Your Name",
+  "your_website": "yourname.github.io",
+  "email": "you@example.com",
+  "github_username": "username"
 }
