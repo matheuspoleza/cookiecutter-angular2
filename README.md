@@ -1,8 +1,6 @@
 # cookiecutter-angular2
 [![Build Status](https://travis-ci.org/agconti/cookiecutter-es6-boilerplate.svg?branch=master)](https://travis-ci.org/agconti/cookiecutter-es6-boilerplate)
 
-Modular seed project for Angular 2 apps with TypeScript..
-
 ## Overview
 A modular seed project for Angular 2 apps. It is something similar to the Angular Quick Start but does the entire build with gulp.
 
