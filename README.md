@@ -43,4 +43,11 @@ cookiecutter gh:matheuspoleza/cookiecutter-angular2
 - **Service Worker**, which implements "Cache then network strategy".
 
 ## Contributing
-Want a new feature or find a bug? Submit a Pull Request! This project adheres to the [Contributor Covenant](http://contributor-covenant.org/version/1/2/0/).
+Check [CONTRIBUTING.md](https://github.com/matheuspoleza/cookiecutter-angular2/blob/master/CONTRIBUTING.md)
+
+## Credits
+Thanks to [mgechev](https://github.com/mgechev) for https://github.com/mgechev/angular2-seed.
+
+## License
+
+[MIT](https://github.com/matheuspoleza/cookiecutter-angular2/blob/master/LICENSE) © Matheus Poleza
