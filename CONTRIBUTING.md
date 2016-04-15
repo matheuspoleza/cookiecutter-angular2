@@ -140,7 +140,7 @@ Preparing your Fork
 
 1. Hit 'fork' on Github, creating e.g. ``matheuspoleza/cookiecutter-angular2``.
 2. Clone your project: ``git clone git@github.com:matheuspoleza/cookiecutter-angular2``.
-3. Create a branch: ``cd theproject; git checkout -b foo-the-bars 1.3``.
+3. Create a branch: ``cd cookiecutter-angular2; git checkout -b foo-the-bars 1.3``.
 
 Making your Changes
 ^^^^^^^^^^^^^^^^^^^
