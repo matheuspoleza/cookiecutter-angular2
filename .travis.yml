@@ -4,7 +4,7 @@ python:
   - 2.7
 
 env:
-  - TRAVIS_NODE_VERSION="4"
+  - TRAVIS_NODE_VERSION="5"
 
 before_script:
   - npm install -g npm
