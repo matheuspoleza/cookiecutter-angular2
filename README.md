@@ -15,8 +15,6 @@ Scaffold your project:
 cookiecutter gh:matheuspoleza/cookiecutter-angular2
 ```
 
-![es6 scaffolding](https://cloud.githubusercontent.com/assets/3332051/10678207/df1f2de0-78de-11e5-84b7-62484ddfea56.gif)
-
 # Stack
 - [Gulp 4](http://gulpjs.com/)
 - [TypeScript](https://www.typescriptlang.org/)
