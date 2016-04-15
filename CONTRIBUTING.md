@@ -1,3 +1,10 @@
+## Tips
+
+- Send only if you read [ANGULAR 2 STYLE GUIDE](https://github.com/mgechev/angular2-style-guide); 
+- Send only one feature for Pull Request;
+- Send small Pull Requests;
+- **Write tests for all features**.
+
 # Bugs proccess
 - Open an issue [here](https://github.com/matheuspoleza/cookiecutter-angular2/issues).
 - Issue Template:
@@ -38,12 +45,5 @@
 - Create your hotfix branch based on `git checkout -b hotfix/{{ short_description }}`;
 - Make changes and doesn't forget of run `npm test`;
 - `git push origin feature/{{ short_description }}`
-
-## Tips
-
-- Send only if you read Angular Style Guide [here](https://github.com/mgechev/angular2-style-guide); 
-- Send only one feature for Pull Request;
-- Send small Pull Requests;
-- **Write tests for all features**.
 
 ## And thats all!! :)
