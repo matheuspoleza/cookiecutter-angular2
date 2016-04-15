@@ -1,5 +1,5 @@
 # cookiecutter-angular2
-[![Build Status](https://travis-ci.org/matheuspoleza/angular2-seed.svg?branch=master)](https://travis-ci.org/matheuspoleza/angular2-seed)
+[![Build Status](https://travis-ci.org/matheuspoleza/cookiecutter-angular2.svg?branch=master)](https://travis-ci.org/matheuspoleza/cookiecutter-angular2)
 
 ## Overview
 A modular seed project for Angular 2 apps. It is something similar to the Angular Quick Start but does the entire build with gulp.
