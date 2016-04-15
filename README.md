@@ -1,5 +1,5 @@
 # cookiecutter-angular2
-[![Build Status](https://travis-ci.org/matheuspoleza/cookiecutter-angular2.svg?branch=master)](https://travis-ci.org/matheuspoleza/cookiecutter-angular2)
+[![Build Status](https://travis-ci.org/agconti/cookiecutter-es6-boilerplate.svg?branch=master)](https://travis-ci.org/agconti/cookiecutter-es6-boilerplate)
 
 Modular seed project for Angular 2 apps with TypeScript..
 
@@ -19,18 +19,28 @@ cookiecutter gh:matheuspoleza/cookiecutter-angular2
 
 ![es6 scaffolding](https://cloud.githubusercontent.com/assets/3332051/10678207/df1f2de0-78de-11e5-84b7-62484ddfea56.gif)
 
+# Stack
+- [Gulp 4](http://gulpjs.com/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Angular 2](https://angular.io/)
+- [Jasmine](http://jasmine.github.io/)
+- [Karma](https://karma-runner.github.io/0.13/index.html)
+- [Protractor](http://angular.github.io/protractor/#/)
+- [Typings](https://www.npmjs.com/package/typings)
+- [css-lint](http://csslint.net/)
+
 # Features
 
-- Allows you to painlessly update the seed tasks of your already existing project.
-- Ready to go, statically typed build system using gulp for working with TypeScript.
+- Allows you to painlessly update the **seed tasks** of your already existing project.
+- Typed build system using gulp for working with **TypeScript**.
 - Production and development builds.
-- Sample unit tests with Jasmine and Karma including code coverage via istanbul.
-- End-to-end tests with Protractor.
-- Development server with Livereload.
-- Following the best practices for your application’s structure.
-- Manager of your type definitions using typings.
-- Has autoprefixer and css-lint support.
-- Basic Service Worker, which implements "Cache then network strategy".
+- **Jasmine** and **Karma** code coverage via **istanbul**.
+- **End-to-end tests** with **Protractor**.
+- **Livereload**.
+- Following the **best practices** for your application’s structure.
+- Manager of your type definitions using **typings**.
+- **Autoprefixer** and **css-lint** support.
+- **Service Worker**, which implements "Cache then network strategy".
 
 ## Contributing
 Want a new feature or find a bug? Submit a Pull Request! This project adheres to the [Contributor Covenant](http://contributor-covenant.org/version/1/2/0/).
