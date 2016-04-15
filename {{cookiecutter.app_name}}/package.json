@@ -1,9 +1,9 @@
 {
-  "name": "{{cookiecutter.project_name}}",
+  "name": "{{cookiecutter.app_name}}",
   "version": "0.0.0",
   "description": "{{cookiecutter.description}}",
   "repository": {
-    "url": "https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.project_name}}"
+    "url": "https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.app_name}}"
   },
   "scripts": {
     "build.dev": "gulp build.dev --color",

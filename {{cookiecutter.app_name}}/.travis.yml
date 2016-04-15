@@ -15,7 +15,7 @@ before_script:
   - sleep 1  # give server time to start
 
 after_failure:
-  - cat /home/travis/build/{{cookiecutter.github_username}}/{{cookiecutter.project_name}}/npm-debug.log
+  - cat /home/travis/build/{{cookiecutter.github_username}}/{{cookiecutter.app_name}}/npm-debug.log
 
 branches:
   only: master

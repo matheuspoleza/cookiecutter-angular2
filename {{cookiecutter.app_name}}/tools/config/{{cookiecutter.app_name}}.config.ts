@@ -1,6 +1,6 @@
 import {argv} from 'yargs';
 import {join} from 'path';
-import {InjectableDependency, Environments} from './{{cookiecutter.project_name}}.config.interfaces';
+import {InjectableDependency, Environments} from './{{cookiecutter.app_name}}.config.interfaces';
 
 export const ENVIRONMENTS: Environments = {
   DEVELOPMENT: 'dev',
@@ -22,14 +22,14 @@ export class AppConfig {
 
   BOOTSTRAP_MODULE     = this.ENABLE_HOT_LOADING ? 'hot_loader_main' : 'main';
 
-  APP_TITLE            = '{{cookiecutter.project_name}}';
+  APP_TITLE            = '{{cookiecutter.app_name}}';
 
   APP_SRC              = 'src/client';
   ASSETS_SRC           = `${this.APP_SRC}/assets`;
   CSS_SRC              = `${this.APP_SRC}/css`;
 
   TOOLS_DIR            = 'tools';
-  SEED_TASKS_DIR       = join(process.cwd(), this.TOOLS_DIR, 'tasks', '{{cookiecutter.project_name}}');
+  SEED_TASKS_DIR       = join(process.cwd(), this.TOOLS_DIR, 'tasks', '{{cookiecutter.app_name}}');
   DOCS_DEST            = 'docs';
   DIST_DIR             = 'dist';
   DEV_DEST             = `${this.DIST_DIR}/dev`;

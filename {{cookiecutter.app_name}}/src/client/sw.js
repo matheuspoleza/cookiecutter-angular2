@@ -1,11 +1,11 @@
-var staticCacheName = '{{cookiecutter.project_name}}-v1';
+var staticCacheName = '{{cookiecutter.app_name}}-v1';
 self.addEventListener('activate', function(event) {
   console.log("Activated service worker");
   event.waitUntil(
     caches.keys().then(function(cacheNames) {
       return Promise.all(
         cacheNames.filter(function(cacheName) {
-          return cacheName.startsWith('{{cookiecutter.project_name}}-') &&
+          return cacheName.startsWith('{{cookiecutter.app_name}}-') &&
                  cacheName != staticCacheName;
         }).map(function(cacheName) {
           return caches.delete(cacheName);
