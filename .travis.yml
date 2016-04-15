@@ -1,0 +1,14 @@
+language: python
+python:
+  - "2.7"
+before_script:
+  - npm install -g npm
+  - npm install -g gulp
+install:
+  - pip install cookiecutter
+  - cookiecutter . --no-input
+  - cd angular2-seed
+  - npm install
+script:
+  - npm test
+sudo: false
