@@ -41,9 +41,6 @@ cookiecutter gh:matheuspoleza/cookiecutter-angular2
 ## Contributing
 Check [CONTRIBUTING.md](https://github.com/matheuspoleza/cookiecutter-angular2/blob/master/CONTRIBUTING.md)
 
-## Credits
-Thanks to [mgechev](https://github.com/mgechev) for https://github.com/mgechev/angular2-seed.
-
 ## License
 
 [MIT](https://github.com/matheuspoleza/cookiecutter-angular2/blob/master/LICENSE) © Matheus Poleza
