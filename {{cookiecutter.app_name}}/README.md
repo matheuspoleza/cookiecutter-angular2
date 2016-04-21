@@ -133,20 +133,6 @@ An [advanced option to this {{cookiecutter.app_name}} exists here](https://githu
 
 You may use it to learn how to extend this {{cookiecutter.app_name}} for your own use cases or use the advanced {{cookiecutter.app_name}} if your project needs those features.
 
-# Examples
-
-Forks of this project demonstrate how to extend and integrate with other libraries:
-
- - https://github.com/justindujardin/{{cookiecutter.app_name}} - integration with [ng2-material](https://github.com/justindujardin/ng2-material)
- - https://github.com/archfirst/{{cookiecutter.app_name}}-sass - integration with [Sass](http://sass-lang.com/)
- - https://github.com/DeviantJS/{{cookiecutter.app_name}}-material2 - integration with [Angular2-Material](https://github.com/angular/material2)
- - https://github.com/AngularShowcase/angular2-sample-app - sample Angular 2 application
- - https://github.com/AngularShowcase/ng2-bootstrap-sbadmin - ng2-bootstrap-sbadmin
- - https://github.com/AngularShowcase/{{cookiecutter.app_name}}-ng2-highcharts - Simple application including a [Highcharts](http://www.highcharts.com) graph.
- - https://github.com/tarlepp/angular-sailsjs-boilerplate-frontend-angular2 - Example application for [Sails.js](http://sailsjs.org/) integration.
- - https://github.com/ludohenin/ng2-wp-blog - Angular 2 application using Wordpress [JSON-API](http://v2.wp-api.org) backend.
- - https://github.com/AngularShowcase/{{cookiecutter.app_name}}-example-mashup - Angular 2 application demonstrating the use of [Redux](http://redux.js.org/), [D3](https://github.com/mbostock/d3), [socket io](https://github.com/socketio), [Google Charts](https://developers.google.com/chart/), and [RxJs](https://github.com/Reactive-Extensions/RxJS)
-
 # Directory Structure
 
 ```
